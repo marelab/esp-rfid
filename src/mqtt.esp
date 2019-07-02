@@ -239,7 +239,7 @@ void onMqttMessage(char* topic, char* payload, AsyncMqttClientMessageProperties 
 	else if (strcmp(command, "listusr") == 0)
 	{
 		#ifdef DEBUG
-			Serial.println("[ MARE ] List usees");
+			Serial.println("[ MARE ] List users");
 		#endif
 		getUserList(1);
 		return;
